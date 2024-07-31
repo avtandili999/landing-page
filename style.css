@@ -1,0 +1,656 @@
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: montserrat-semibold;
+    src: url(fonts/Montserrat-semibold.ttf);
+}
+@font-face {
+    font-family: lato-bold;
+    src: url(fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: noto-serif;
+    src: url(fonts/NotoSerif-SemiBold.ttf);
+}
+@font-face {
+    font-family: nunito;
+    src: url(fonts/Nunito-Regular.ttf);
+}
+
+.top-bar {
+    height: 80px;
+    background-color: #0A0F29;
+}
+.coin-logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.coin-name {
+    font-size: 22px;
+    margin-left: 10px;
+    color: white;
+}
+.coin-price {
+    font-size: 14px;
+    margin-left: 15.16px;
+    color: white;
+}
+.coin-perc {
+    font-size: 14px;
+    margin-left: 15.02px;
+    color: #1DEA4A;
+}
+
+.top-frame {
+    width: 100%;
+    height: 650px;
+    background-color: #098C26;
+}
+.navbar-brand {
+    font-family: lato-bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    color: #FFFFFF;
+    margin-right: 43.5px;
+    margin-left: 40px;
+}
+.nav-item, .nav-link {
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.separator1 {
+    border: 1.5px solid #FFFFFF;
+    width: 50px;
+    rotate: 90deg;
+    margin-right: 50px;
+}
+
+.frame-desc {
+    margin-top: 60px;
+    margin-left: 75px;
+}
+.frame-header {
+    font-family: montserrat-semibold;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 63.39px;
+    text-align: left;
+}
+.frame-txt {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.76px;
+    text-align: left;
+}
+.coindashguy {
+    width: 500px;
+    height: 500px;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+.frame-btns {
+    gap: 40px;
+    margin-top: 50px;
+}
+.gt {
+    width: 300px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: #F7931A;
+    font-family: nunito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+}
+.vm {
+    width: 300px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-family: nunito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+
+.plat-props {
+    margin-top: 60px;
+}
+.prop-h1 {
+    color: #2F66F6;
+    font-family: montserrat-semibold;
+    font-size: 46px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.prop-text {
+    font-size: 40px;
+    font-family: montserrat;
+    text-align: center;
+    line-height: 48.76px;
+    margin-bottom: 57px;
+}
+
+.characteristics {
+
+}
+.char-logos {
+    width: 90px;
+    height: 90px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.char-headers {
+    color: #2F66F6;
+    font-size: 36px;
+    font-family: lato-bold;
+    margin-top: 10px;
+}
+.char-header {
+    color: #2F66F6;
+    font-size: 25px;
+    font-family: lato-bold;
+    margin-top: 10px;
+}
+.char-texts {
+    font-size: 20px;
+    line-height: 36px;
+}
+.chars {
+    box-sizing: border-box;
+}
+
+.market-movers {
+    height: 800px;
+    background-color: #F5F5F5;
+    margin-top: 47px;
+    padding-top: 47.5px;
+    margin-bottom: 50px;
+}
+#market-header {
+    text-align: center;
+    font-size: 64px;
+    font-family: noto-serif;
+    color: #2F66F6;
+    margin-bottom: 39px;
+}
+.market-btns {
+
+}
+.btn-buy {
+    width: 200px;
+    height: 75px;
+    font-size: 28px;
+    font-weight: 400;
+}
+.btn-btc {
+    width: 300px;
+    height: 80px;
+    box-shadow: 4px 10px 10px 10px #00000080;
+}
+.btn-sell {
+    width: 200px;
+    height: 75px;
+    font-size: 28px;
+    font-weight: 400;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+}
+.market-about {
+
+}
+.market-about-header {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 63.39px;
+}
+.about-desc {
+    font-size: 24px;
+    margin-top: 47.5px;
+    line-height: 25px;
+}
+.about-link {
+    color: #2F66F6;
+    text-decoration: none;
+    font-size: 24px;
+}
+.cur-holding {
+    width: 400px;
+    height: 400px;
+    background-color: #FCC98A;
+    border: 0.25px solid #000000;
+    box-shadow: 0px 20px 10px 0px #00000080;
+    margin-top: 74px;
+}
+.cur-header {
+    font-family: Noto Serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54.48px;
+    text-align: center;
+    color: #CD0000;
+    margin-top: 44px;
+    margin-bottom: 35px;
+}
+.cur-text {
+    font-family: montserrat-semibold;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 63.39px;
+    text-align: center;
+    margin-bottom: 39px;
+}
+.cur-price {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.76px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.cur-perc {
+
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    text-align: center;
+    color: #098C26;
+}
+
+
+.watchlist {
+    background-color: #F5F5F5;
+}
+.wl-header {
+    font-family: noto-erif;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;    
+    line-height: 87.17px;
+    color: #2F66F6;
+    margin-top: 27px;
+    margin-bottom: 39px;
+}
+.wl-all {
+    font-family: montserrat-semibold;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 63.39px;
+}
+.wl-all-arrow {
+    width: 25px;
+    height: 15px;
+}
+.wl-add-coin {
+    width: 40px;
+    height: 40px;
+}
+.wl-add {
+    font-family: montserrat-semibold;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 63.39px;
+    color: #9B9B9B;
+}
+
+.list-items {
+    gap: 15px;
+    box-sizing: border-box;
+
+}
+
+.list-numbers {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.76px;
+    align-self: center;
+}
+.list-elements {
+    height: 100px;
+    border: 1px solid #00000040;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px #00000080;
+}
+.list-icons {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.list-item-name {
+    font-family: Lato-bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+.list-item-namefull {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #959595;
+}
+.list-graph {
+    width: 300px;
+    height: 75px;
+    margin-left: 64px;
+   margin-top: 12px;
+}
+.list-price {
+    font-family: lato-bold;
+    font-size: 28px;
+    line-height: 33.6px;
+    text-align: right;
+    margin-top: 25px;
+    margin-top: 15px;
+}
+.list-pricestatus {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #098C26;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+
+.reg-card {
+    width: 475px;
+    height: 330px;
+    background-color: #9AFFB080;
+    padding-top: 31px;
+    padding-left: 25px;
+    margin-top: -370px;
+    margin-left: 20px;
+}
+.card-header {
+    font-family: Montserrat-semibold;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+
+}
+.reg-logo {
+
+}
+.reg-btn {
+    background-color: #01AB6C;
+    border: none;
+    width: 226px;
+    height: 48px;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: white;
+    margin-top: 24px;
+}
+
+
+
+
+.p2ptrade {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tradebox {
+    height: 250px;
+    background-color: #0A0F29;
+    padding: 25px;
+    padding-bottom: 19px !important;
+}
+.btn-p2p {
+    width: 420px;
+    height: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Montserrat-semibold;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 56.07px;
+    color: #2F66F6;
+    margin-top: 25px;
+}
+.p2p-text {
+    font-family: Nunito;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.19px;
+    text-align: center;
+    color: white;
+}
+
+.trading-page {
+    background-color: #F5F5F5;
+}
+.ad-list-nav {
+    height: 50px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+.ad-texts {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #949494;
+}
+.ad-text-propts1 {
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #F7931A;
+    background: linear-gradient(180deg, #FFEAD1 0%, #F5E2C9 100%);
+}
+.ad-text-propts2 {
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #098C26;
+    background: linear-gradient(180deg, #D3F1C5 0%, #D0F3CA 100%);
+}
+.advers-frame {
+
+}
+.ad-frame {
+    height: 150px;
+    background-color: #ECECEC;
+    padding-left: 20px;
+    padding-right: 52px;
+}
+.pfps {
+    margin-top: 34px;
+}
+.p-name {
+    font-family: Nunito;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38.19px;
+    color: #2F66F6;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+.orders, .orders-comp{
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 20px;
+}
+.rate {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 10px;
+}
+
+.price {
+    margin-top: 42px;
+    margin-left: 33px;
+}
+.price-p {  
+    font-family: Nunito;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.19px;
+}
+.usd {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.limava {
+    margin-left: 43px;
+    margin-top: 49px;
+}
+.stats {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #949494;
+}
+.avatot {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #000000;
+}
+.pay {
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(180deg, #FFEAD1 0%, #F5E2C9 100%);
+    margin-left: 41px;
+    margin-top: 63px;
+}
+.pay-text {
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #F7931A;
+}
+
+.sell-btn {
+    width: 150px;
+    height: 40px;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    margin-left: 50px;
+    margin-top: 55px;
+}
+.overflow-auto {
+    height: 670px;
+}
+
+
+
+
+.contact {
+    background-color: #F5F5F5;
+}
+.contact-header {
+    font-family: noto-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 87.17px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.contact-text {
+    font-family: poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+}
+.form-group {
+}
+.form-control {
+    border-radius: 15px;
+    margin-bottom: 30px;
+    width: 700px;
+}
+.form-control::placeholder {
+    font-family: Lato;
+    font-size: 28px;
+    line-height: 33.6px;
+}
+
+.footer {
+    background-color: #0A0F29;
+    padding-top: 15px;
+}
+.footer-logotxt {
+    font-family: lato-bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    color: white;
+    text-align: center;
+}
+
+.loc-txt {
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: white;
+}
+.foot-logos {
+    width: 80px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.footer-txt {
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    text-align: justified;
+    color: white;
+}
+.foot-copy {
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: white;
+    text-align: right;
+}
